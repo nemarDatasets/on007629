@@ -1,0 +1,32 @@
+{
+  "version": "2.0",
+  "dataset_id": "on007629",
+  "source": "openneuro",
+  "source_id": "ds007629",
+  "title": "ROAMM",
+  "authors": {
+    "Haorui Sun": {},
+    "Ardyn Vivienne Olszko": {},
+    "Niharika Singh": {},
+    "David C. Jangraw": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds007629.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.9.0",
+  "recording_modality": [
+    "beh",
+    "eeg"
+  ],
+  "datatypes": [
+    "beh",
+    "eeg"
+  ]
+}
