@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "ROAMM",
+  "description": "ROAMM is a large-scale multimodal neuroimaging dataset combining simultaneous EEG and eye-tracking recordings from 44 participants during naturalistic reading of standardized articles. The dataset includes span-level mind-wandering annotations, reading comprehension assessments, and linguistic stimulus information, providing a benchmark resource for mind-wandering detection and EEG-based language decoding in naturalistic contexts.",
+  "methods_description": "Data were collected using BioSemi ActiveTwo 64-channel EEG and SR Research EyeLink 1000 Plus eye-tracking during a naturalistic reading task with retrospective self-report (ReMind task) for mind-wandering annotation. Participants read standardized articles while EEG and eye-tracking data were simultaneously recorded and synchronized.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,12 +12,30 @@
     "Niharika Singh": {},
     "David C. Jangraw": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds007629.v1.1.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "eye tracking"
+    },
+    {
+      "term": "mind wandering"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "reading comprehension"
+    },
+    {
+      "term": "multimodal neuroimaging"
+    },
+    {
+      "term": "naturalistic paradigm"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007629",
       "identifier_type": "URL",
@@ -25,16 +45,21 @@
       "identifier": "https://nemar.org/dataset/on007629",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007629.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Neuroimaging Dataset",
   "modalities": [
     "beh",
     "eeg"
   ],
-  "resource_type_specific": "Neuroimaging Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "50.0 GB (246 files)"
   ],
   "formats": [
     ".csv",
@@ -48,30 +73,5 @@
     ".vmrk",
     ".yml"
   ],
-  "description": "ROAMM is a large-scale multimodal neuroimaging dataset combining simultaneous EEG and eye-tracking recordings from 44 participants during naturalistic reading of standardized articles. The dataset includes span-level mind-wandering annotations, reading comprehension assessments, and linguistic stimulus information, providing a benchmark resource for mind-wandering detection and EEG-based language decoding in naturalistic contexts.",
-  "methods_description": "Data were collected using BioSemi ActiveTwo 64-channel EEG and SR Research EyeLink 1000 Plus eye-tracking during a naturalistic reading task with retrospective self-report (ReMind task) for mind-wandering annotation. EEG and eye-tracking data were synchronized and preprocessed into machine learning-ready formats.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "eye tracking"
-    },
-    {
-      "term": "mind wandering"
-    },
-    {
-      "term": "naturalistic reading"
-    },
-    {
-      "term": "attention"
-    },
-    {
-      "term": "multimodal neuroimaging"
-    },
-    {
-      "term": "brain-computer interfaces"
-    }
-  ],
-  "source_hash": "1e7ad4a7985e665c68cff2921abae6c405aa0420d2a59b7aeb3b45867375aa55"
+  "source_hash": "4c5349975ab0a30a08c89668d54b1d1eaf471ba076be28f704855285280fa156"
 }
