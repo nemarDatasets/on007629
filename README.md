@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007629-blue)](https://doi.org/10.82901/nemar.on007629)
+
 # ROAMM: Reading Observed At Mindless Moments
 
 **ROAMM** is a large-scale multimodal dataset featuring simultaneous **EEG and eye-tracking** data collected during naturalistic reading with **span-level mind-wandering annotations**. ROAMM provides a benchmark dataset for MW detection and EEG-to-text decoding tasks, and enables the study of attention-related degradation in language decoding from brain activity in naturalistic reading.
