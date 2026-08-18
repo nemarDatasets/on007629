@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "ROAMM",
-  "description": "ROAMM is a large-scale multimodal neuroimaging dataset combining simultaneous EEG and eye-tracking recordings from 44 participants during naturalistic reading of standardized articles. The dataset includes span-level mind-wandering annotations, reading comprehension assessments, and linguistic stimulus information, providing a benchmark resource for mind-wandering detection and EEG-based language decoding in naturalistic contexts.",
-  "methods_description": "Data were collected using BioSemi ActiveTwo 64-channel EEG and SR Research EyeLink 1000 Plus eye-tracking during a naturalistic reading task with retrospective self-report (ReMind task) for mind-wandering annotation. Participants read standardized articles while EEG and eye-tracking data were simultaneously recorded and synchronized.",
+  "description": "ROAMM is a large-scale multimodal dataset combining simultaneous EEG and eye-tracking recordings collected during naturalistic reading, with span-level mind-wandering annotations from 44 participants. It provides a benchmark for mind-wandering detection and EEG-to-text decoding, supporting research on attention-related degradation in language decoding from brain activity during naturalistic reading.",
+  "methods_description": "Data were collected using a BioSemi ActiveTwo 64-channel EEG system with simultaneous eye-tracking via an SR Research EyeLink 1000 Plus, during a naturalistic reading task (ReMind) involving standardized articles and retrospective self-report of mind-wandering, along with page-level multiple-choice reading comprehension assessments.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,22 +17,19 @@
       "term": "EEG"
     },
     {
-      "term": "eye tracking"
+      "term": "Eye-Tracking"
     },
     {
-      "term": "mind wandering"
+      "term": "mind-wandering"
+    },
+    {
+      "term": "naturalistic reading"
+    },
+    {
+      "term": "EEG-to-text decoding"
     },
     {
       "term": "attention"
-    },
-    {
-      "term": "reading comprehension"
-    },
-    {
-      "term": "multimodal neuroimaging"
-    },
-    {
-      "term": "naturalistic paradigm"
     }
   ],
   "related_identifiers": [
